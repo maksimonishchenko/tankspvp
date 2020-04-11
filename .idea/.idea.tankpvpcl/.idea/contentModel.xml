@@ -10,17 +10,6 @@
         <e p="Morpeh" t="Include">
           <e p="Morpeh.asmdef" t="Include" />
           <e p="Morpeh.cs" t="Include" />
-          <e p="TanksPVP" t="Include">
-            <e p="Components" t="Include">
-              <e p="TextComponent.cs" t="Include" />
-            </e>
-            <e p="Providers" t="Include">
-              <e p="TextProvider.cs" t="Include" />
-            </e>
-            <e p="Systems" t="Include">
-              <e p="Game.cs" t="Include" />
-            </e>
-          </e>
           <e p="Tests" t="Include">
             <e p="Editor" t="Include">
               <e p="Morpeh.Tests.Editor.asmdef" t="Include" />
@@ -488,7 +477,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="Example.cs" t="Include" />
+          <e p="PhotonCallback.cs" t="Include" />
         </e>
         <e p="ScriptTemplates" t="Include">
           <e p="ECS__Component.cs.txt" t="Include" />
@@ -499,6 +488,21 @@
           <e p="ECS__LateSystem.cs.txt" t="Include" />
           <e p="ECS__Provider.cs.txt" t="Include" />
           <e p="ECS__System.cs.txt" t="Include" />
+        </e>
+        <e p="TanksPVP" t="Include">
+          <e p="Components" t="Include">
+            <e p="TextComponent.cs" t="Include" />
+          </e>
+          <e p="Events" t="Include">
+            <e p="DisconnectEvent.cs" t="Include" />
+            <e p="JoinRoomFailedEvent.cs" t="Include" />
+          </e>
+          <e p="Providers" t="Include">
+            <e p="TextProvider.cs" t="Include" />
+          </e>
+          <e p="Systems" t="Include">
+            <e p="Game.cs" t="Include" />
+          </e>
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">

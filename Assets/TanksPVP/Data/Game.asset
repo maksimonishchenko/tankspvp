@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6edc08638b1002249bc3a0193d7fffc7, type: 3}
+  m_Name: Game
+  m_EditorClassIdentifier: 
+  ConnectToMaster: {fileID: 11400000, guid: 69f1433807c676842ad564ea9c3dc2a6, type: 2}
+  JoinRandomFailed: {fileID: 11400000, guid: 0159f1a4846e1ae4abfe8273983a9ab5, type: 2}
+  Disconnected: {fileID: 11400000, guid: 43d068a8690487b4c979cb8e6b438ca5, type: 2}
+  JoinedRoom: {fileID: 11400000, guid: f556e51e713717c4f8e173f2243d74ad, type: 2}
+  _maxPlayersPerRoom: 2

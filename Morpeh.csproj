@@ -59,9 +59,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Morpeh\Morpeh.cs" />
-     <Compile Include="Assets\Morpeh\TanksPVP\Components\TextComponent.cs" />
-     <Compile Include="Assets\Morpeh\TanksPVP\Providers\TextProvider.cs" />
-     <Compile Include="Assets\Morpeh\TanksPVP\Systems\Game.cs" />
      <Compile Include="Assets\Morpeh\Unity\BaseInstaller.cs" />
      <Compile Include="Assets\Morpeh\Unity\Globals\BaseGlobal.cs" />
      <Compile Include="Assets\Morpeh\Unity\Globals\BaseGlobalEvent.cs" />
